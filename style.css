@@ -25,6 +25,7 @@ header {
     text-align: center;
     position: sticky;
     top: 0px;
+    width: 80%;
 }
 
 header h1 {
@@ -53,7 +54,7 @@ nav a:hover {
 }
 
 .panel {
-    width: 90%;            
+    width: 90% device-width;            
     max-width: 1000px;
     margin: 40px auto;
     padding: 30px;
@@ -180,3 +181,4 @@ footer {
         width: 45%;
     }
 }
+
